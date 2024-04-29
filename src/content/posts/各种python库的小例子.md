@@ -8,13 +8,13 @@ draft: false
 ---
 
 - [MQ](#mq)
-  - [RabbitMQ](#rabbitmq)
+  - [aio\_pika](#aio_pika)
 - [DB](#db)
 
 
 # MQ 
-## RabbitMQ
-> 连接rabbitmq可以使用`pika`库来，想要异步连接则使用`aio_pika`
+## aio_pika
+> `aio_pika`是python用来连接rabbitMQ的异步客户端
 
 下面是一个使用`aio_pika`连接rabbitmq收发消息的小例子。  
 
